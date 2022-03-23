@@ -1,0 +1,306 @@
+.body1{
+	background-color: black;
+	color: white;
+	font-family: "Segoe UI";
+}
+
+.blue img{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 50%
+}
+
+.blue .circulo p{
+	text-align: center;
+	font-family: "The Childrow";
+	color: #b63039;
+	padding-top: 10px;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: whitesmoke;
+	font-size: 0px;
+	transition: 1.6s;
+}
+
+.blue .circulo:hover p{
+	font-family: "The Childrow";
+	font-size: 90px;
+	text-shadow: 6px 6px 12px black;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-style: double;
+	text-decoration-color: whitesmoke;
+	padding-top: 10px;
+}	
+
+.login{
+	font-size: 45px;
+	position: absolute;
+	left: 280px;
+	top: 100px;
+}
+
+.form1{
+	font-size: 18px;
+	position: absolute;
+	left: 220px;
+	top: 260px;
+}
+
+.form1 input{
+	width: 250px;
+	height: 35px;
+	border-radius: 17px 17px 17px 17px;
+}
+
+.circulo{
+	position: relative;
+	border-radius: 130px 130px 130px 130px;
+	border: 8px solid black;
+	box-shadow: 8px 8px 16px black;
+	top: 180px;
+	right: -900px;
+	width: 250px;
+	height: 250px;
+	background-color: white;
+	transition: 1s;
+}
+
+.circulo:hover{
+	top: 180px;
+	right: -900px;
+	border-top: 70px solid black;
+	border-bottom: 70px solid black;
+	box-shadow: 30px 30px 60px black;
+	border-radius: 6px 6px 6px 6px;
+	border-left: 1px;
+	border-right: 1px;
+	background-color: rgba(0, 0, 0, 0);
+	width: 400px;
+	height: 300px;
+}
+.circulo img{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	width: 200px;
+	height: 200px;
+	transition: 1.6s;
+}
+
+.circulo:hover img{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: -120px;
+	right: 450px;
+}
+
+h2{
+	font-size: 24px;
+	position: absolute;
+	left: 215px;
+	top: 190px;
+}
+
+.bg{
+	background-image: url("../img/back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.row1{
+	background-color: black;
+}
+
+.row1 .cinefun a{
+	font-family: "The Childrow";
+	font-size: 65px;	
+	text-shadow: 4px 4px 8px cadetblue;
+	position: relative;
+	left: 0px;
+	color: white;
+	text-decoration: none;
+}
+
+.row1 .sair a{
+	position: relative;
+	top: 30%;
+}
+
+.popcorn, .cinefun, .empty, .sair{
+	top: 0px;
+	
+	box-shadow: 6px 6px 12px black;
+	position: relative;
+	height: 100px;
+	text-align: center;
+}
+
+.popcorn img{
+	width: 80%;
+	height: 100%;
+}
+
+.linehead{
+	background-color: white;
+	position: relative;
+	height: 3px;
+	text-align: center;
+}
+
+.blank{
+	position: relative;
+	width: 50%;
+	left: 50%;
+	height: 50px;
+}
+
+.row5 .msg{
+	position: relative;
+	height: 40px;
+	text-align: center;
+}
+
+.menubar{  
+	position: relative;
+	left: 0px;
+    width: 100%;
+    box-shadow: 16px 16px 32px black;
+   	background: rgba(0, 0, 0, 0.5);
+    
+}
+.menu-dropdown {   
+    display: flex;
+    align-items: center;
+    margin: 0;
+    list-style-type: none;
+}
+.menu-dropdown .md-item{
+	left: 60px;
+    position: relative;
+    transition: background-color 0.5s;
+
+}
+.menu-dropdown .md-item:hover{ /* efeito hover nos itens do menu principal */
+    background-color:black;
+}
+.menu-dropdown .md-item a{
+    color: #fff;
+	font-family: "The Childrow";
+	text-transform: uppercase;
+    font-size: 22px;
+    padding:10px 20px;
+    text-decoration: none;
+    display: flex;
+
+}
+.menu-dropdown .md-item a:hover{ /* efeito hover nos links do menu principal */
+    background: black;
+}
+.submenu-dropdown{
+    display: none; /* esconde o submenu dropdown */
+    position: absolute;
+    width:100%;  
+}
+.sd-item:hover .submenu-dropdown{
+    display: flex;  
+}
+.submenu-dropdown .sd-item{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 100%;
+    width: 100%;
+ }
+.submenu-dropdown .sd-item a{
+    padding:10px;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff; 
+}
+.submenu-dropdown .sd-item a:hover { /* efeito hover nos itens do submenu dropdown */
+    background-color: black;
+}
+.menu-dropdown .md-item:hover .submenu-dropdown{   /*efeito hover para alterar a cor de fundo*/
+    background-color: black; 
+    display: flex; /* exibir o submenu dropdown */
+}
+
+.msg h4{
+	font-size: 18px;
+}
+
+.msgalert{
+	height: 100%;
+}
+
+.exibir{
+	position: relative;
+	top: 50px;
+}
+
+.exibir tr{
+	color: black;
+}
+@font-face {
+  font-family: "Ostrich Sans";
+  src: url("../fonts/OstrichSansInline-Italic.otf");
+}
+
+.exibir h3{
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 6px 6px 12px black;
+	font-family: "Ostrich Sans";
+	color: black;
+}
+
+.cancel{
+	position: relative;
+	margin-left: 60%;
+	top: -53px;
+}
+
+.form_cadastro h3{
+	text-align: center;
+	font-size: 50px;
+	font-family: "Ostrich Sans";
+	text-shadow: 6px 6px 12px black;
+	color: black;
+}
+
+.form_cadastro form{
+	margin-left: 10%;
+	font-size: 18px;
+	color: black;
+	font-family: "The Childrow";
+}
+
+.form_cadastro input{
+	font-family: "Tahoma";
+	font-size: 16px;
+	width: 90%;
+	border-radius: 17px 17px 17px 17px;
+}
+
+@media screen and (max-width: 768px) {
+  .popcorn, .empty, .before_menubar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sair , .menubar{
+    display: none;
+  }
+}
+
+.form_cadastro{
+	min-width: 450px;
+	max-width: 500px;
+}
