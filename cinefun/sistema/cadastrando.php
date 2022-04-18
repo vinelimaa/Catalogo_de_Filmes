@@ -12,20 +12,22 @@ include_once '../database/filme.dao.php';?>
 <body class="bg">
 	<div class="container-fluid">
 
-		<!-- Cabeçalho -->
+		<!-- header -->
 		<div class="row row1">
 			<div class="col-3 popcorn"><img src="../img/popcorn.png"></div>
 			<div class="col-lg-2 col-md-4 col-sm-8 cinefun"><a href="index.php">CINEFUN</a></div>
 			<div class="col-lg-5 col-md-2 empty">
 				<form class="d-flex">
 			        <input class="form-control me-2 search" type="search" placeholder="Buscar..." aria-label="Search">
-			        <button class="btn btn-outline-warning go" type="submit">Go!</button>
+			        <button class="btn btn-outline-warning go" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  					<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+  					</button>
       			</form>
       		</div>
-			<div class="col-lg-2 col-md-3 col-sm-4 sair"><a href="logout.php" class="btn btn-outline-light">Sair do sistema</a></div>
+			<div class="col-lg-2 col-md-5 col-sm-4 sair"><a href="logout.php" class="btn btn-outline-light">Sair do sistema</a></div>
 		</div>
 
-		<!-- Linha de divisão entre cabeçalho e menu -->
+		<!-- Linha de divisão entre header e menu -->
 		<div class="row row2">
 			<div class="col-12 linehead"></div>
 		</div>
@@ -72,6 +74,7 @@ include_once '../database/filme.dao.php';?>
 
 		<div class="row row6">
 			<div class="col-lg-4 col-md-3 col-sm-3"></div>
+
 			<div class="col-lg-4 col-md-6 col-sm-6 form_cadastro">
 				<h3><b>CADASTRAR FILME:</b></h3>
 				<br>

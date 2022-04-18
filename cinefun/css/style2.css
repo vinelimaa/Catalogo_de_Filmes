@@ -38,15 +38,24 @@
 .login{
 	font-size: 45px;
 	position: absolute;
-	left: 280px;
+	left: 20%;
 	top: 100px;
 }
 
 .form1{
 	font-size: 18px;
 	position: absolute;
-	left: 220px;
+	left: 16%;
 	top: 260px;
+}
+
+.wellcome{
+	text-align: center;
+	font-size: 24px;
+	top: 180px;
+	left: 14%;
+	position: absolute;
+	width: 300px;
 }
 
 .form1 input{
@@ -61,7 +70,7 @@
 	border: 8px solid black;
 	box-shadow: 8px 8px 16px black;
 	top: 180px;
-	right: -900px;
+	left: 65%;
 	width: 250px;
 	height: 250px;
 	background-color: white;
@@ -103,6 +112,13 @@ h2{
 	position: absolute;
 	left: 215px;
 	top: 190px;
+}
+
+.mlogin{
+	position: absolute;
+	bottom: 100px;
+	left: 150px;
+	height: 45px;
 }
 
 .bg{
@@ -201,6 +217,9 @@ h2{
     display: flex;
 
 }
+.menu-dropdown .md-item a{
+	@font: ;
+}
 .menu-dropdown .md-item a:hover{ /* efeito hover nos links do menu principal */
     background: black;
 }
@@ -269,6 +288,11 @@ h2{
   src: url("../fonts/OstrichSansInline-Italic.otf");
 }
 
+@font-face{
+	font-family: "The Childrow";
+  src: url("../fonts/TheChildrow.otf");
+}
+
 .exibir h3{
 	font-size: 50px;
 	text-align: center;
@@ -321,8 +345,14 @@ h2{
 }
 
 @media screen and (max-width: 576px) {
-  .sair , .menubar{
+  .sair, .menubar{
     display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .sair{
+    text-align: right;
   }
 }
 
@@ -339,4 +369,10 @@ h2{
 .go{
 	position: relative;
 	top: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .blue img, .circulo{
+    display: none;
+  }
 }

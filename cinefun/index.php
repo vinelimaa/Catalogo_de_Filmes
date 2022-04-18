@@ -29,10 +29,10 @@
         }
         ?>
     </div>
+    <div class="wellcome">
+        <p>Bem-vindo ao <b>CINEFUN.</b></p>
+    </div>
     
-
-    <br><br><br><br><br><br>
-    <h2>Bem-vindo ao <b>CINEFUN</b>.</h2>
    
 <div class="form1">
     <form action="validar.php" method="post">
